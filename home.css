@@ -16,7 +16,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100vh;
-  background-color: #ff5e57;
   line-height: 2;
 }
 
@@ -72,4 +71,33 @@ body {
 
 .container:hover > .search__icon {
   background-color: #eee;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20rem;
+  text-align: center;
+  font-size: 2rem;
+}
+#ratingchart {
+  position: relative;
+  left: 35vw;
+}
+#contest {
+  text-align: left;
+}
+#blog {
+  text-align: left;
+  margin-top: 1rem;
+}
+#comment {
+  text-align: left;
+}
+#onlinefriends,
+#offlinefriends {
+  text-align: left;
+}
+.data tr td {
+  cursor: pointer;
 }
